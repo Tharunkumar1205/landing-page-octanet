@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:rgb(255, 255, 255);
+    line-height:1.6;
+}
+#show{
+    background-color:rgb(0, 0, 0);
+    background-size:cover;
+    background-image: url('https://9to5mac.com/wp-content/uploads/sites/6/2018/04/a3b8baaddd830b830f23fc26cb58661e67bdab5b.jpg?quality=82&strip=all');
+    height: 100vh;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:0 20px;
+}
+#show h1{
+    font-size:60px;
+    line-height:1.2 ;
+    
+}
+#show p{
+    font-size:40px;
+    font-weight: bold;
+   
+}
+#show .button{
+    font-size: 18px;
+    text-decoration:solid;
+    color:white;
+    border:black 1px solid;
+    padding:10px 20px;
+    border-radius:10px ;
+    margin-top:20px;
+
+}
+#show .button1{
+    font-size: 18px;
+    text-decoration:solid;
+    color:white;
+    border:black 1px solid;
+    padding:10px 20px;
+    border-radius:10px ;
+    margin-top:20px;
+
+}
+#show .button:hover{
+     background:black;
+     color:white;
+
+}
+#show .button1:hover{
+    background:black;
+    color:white;
+
+  
+
+}
+#show .container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  }
+
+
+
+
+
+
+#sect{
+   padding:20px;
+   background: rgb(248, 0, 0) ;   
+   color:rgb(0, 0, 0);
+   text-align: center;
+  
+}
+#cd {
+    padding:20px;
+    background:rgb(0, 0, 0) ;   
+    text-align: center;
+     display:flex;
+    }
+ #cd div{
+    padding: 20px;
+    
+ }
+ #cd .dt,#cd .dt1{
+
+     background:whitesmoke;
+     color: black;
+ }
